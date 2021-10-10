@@ -35,5 +35,7 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
       
-      - name: Repo Star Count
-        uses: alanhg/repo-star-count-action@1.0
+      - name: Star Count
+        id: repo-stars
+        uses: alanhg/repo-star-count-action@master
+        run: echo ${{steps.repo-stars.outputs.stars}}
