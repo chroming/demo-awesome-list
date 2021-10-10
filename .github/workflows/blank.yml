@@ -36,6 +36,4 @@ jobs:
           echo test, and deploy your project.
       
       - name: Repo Star Count
-  # You may pin to the exact commit or the version.
-  # uses: alanhg/repo-star-count-action@3b0dab807cfe6ccd2382bb9a5a8cfc391e4ca85a
-      - uses: alanhg/repo-star-count-action@1.0
+        uses: alanhg/repo-star-count-action@1.0
