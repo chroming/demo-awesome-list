@@ -38,4 +38,6 @@ jobs:
       - name: Star Count
         id: repo-stars
         uses: alanhg/repo-star-count-action@master
+
+      - name: echo star count
         run: echo ${{steps.repo-stars.outputs.stars}}
